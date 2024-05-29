@@ -224,7 +224,7 @@ end
 
 function M.jdtls_setup(config)
   M.config = config
-  lspconfig_setup(resolve_path())
+  -- lspconfig_setup(resolve_path())
 end
 
 return M
